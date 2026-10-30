@@ -10,6 +10,8 @@ upstream:
   version:
     type: github_release
     repo: Ultimaker/Cura
+    require_assets:
+      - asset: '^UltiMaker\-Cura\-.*\-linux\-X64\.AppImage$'
   notes:
     type: github_release
     repo: Ultimaker/Cura
